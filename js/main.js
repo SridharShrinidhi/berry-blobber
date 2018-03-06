@@ -39,7 +39,7 @@ document.write('<h1>Berries</h1>');
 berries.forEach(function (item) {
   document.write('<h2>' + item.name + '</h2>');
   document.write('<dl>');
-  document.write('<dt>' + 'Grows on a shrub?' + '</dt>');
+  document.write('<dt>' + 'Grows' +' '+ 'on' +' '+ 'a' +' '+ 'shrub' + '?' + '</dt>');
   document.write('<dd>' + item.onShrub + '</dd>');
   document.write('<dt>' + 'Energy' + '</dt>');
   document.write('<dd>' + item.energy + '</dd>');
